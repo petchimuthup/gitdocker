@@ -33,3 +33,5 @@ EXPOSE 8080
 # Define the command to run the application
 CMD ["java", "-jar", "my-app-1.0-SNAPSHOT.jar"]
 
+RUN apt update -y
+
